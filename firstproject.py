@@ -10,7 +10,7 @@ for i in range(e):
 isprime=True
 for i in range(2,a):
     if(a%i==0):
-        isprime=True
+        isprime=False
 if(d==True and isprime==True):
     print("It is a Prime palindrome")
 else:
